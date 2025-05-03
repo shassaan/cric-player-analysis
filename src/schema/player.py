@@ -2,8 +2,8 @@ from pydantic import BaseModel
 
 
 class Player(BaseModel):
+    year: int
     name: str
-    age: int = None
     birth_place: str
     team: str
     debut: str

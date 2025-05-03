@@ -11,6 +11,5 @@ for player in mapped_data:
 
 
 
-print(df.dtypes)
 
-df.to_parquet("data/sample.parquet")
+
